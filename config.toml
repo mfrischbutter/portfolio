@@ -17,10 +17,10 @@ googleAnalytics = "UA-171844638-1"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Kontakt"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "contact"
+  url = "/contact/"
 
   [[menu.main]]
   name = "About"
