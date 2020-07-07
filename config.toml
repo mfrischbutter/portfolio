@@ -5,7 +5,7 @@ theme = "anatole"
 [params]
 title = "Michael Frischbutter"
 author = "Michael Frischbutter"
-description = "Portfolio"
+description = "Web-Developer aus Leipzig"
 profilePicture = "images/profile.jpg"
 googleAnalytics = "UA-171844638-1"
 
