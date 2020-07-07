@@ -1,4 +1,4 @@
-baseURL = "http://mfrischbutter.dev/"
+baseURL = "https://mfrischbutter.dev/"
 languageCode = "de"
 theme = "anatole"
 
