@@ -1,7 +1,29 @@
-baseURL = "https://mfrischbutter.dev/"
+baseURL = "http://mfrischbutter.dev/"
 languageCode = "de"
 theme = "anatole"
 
+[params]
 title = "Michael Frischbutter"
 author = "Michael Frischbutter"
 description = "Portfolio"
+profilePicture = "images/profile.jpg"
+googleAnalytics = "UA-171844638-1"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
