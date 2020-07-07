@@ -6,7 +6,7 @@ theme = "anatole"
 title = "Michael Frischbutter"
 author = "Michael Frischbutter"
 description = "Portfolio"
-profilePicture = "static/images/profile.jpg"
+profilePicture = "images/profile.jpg"
 googleAnalytics = "UA-171844638-1"
 
 [menu]
