@@ -6,4 +6,4 @@ aliases = ["about-me","about-us"]
 author = "Michael Frischbutter"
 +++
 
-Lorum ipsum dolor sit amet.
+...

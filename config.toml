@@ -11,7 +11,7 @@ googleAnalytics = "UA-171844638-1"
 
 [menu]
   [[menu.main]]
-  name = "Übersicht"
+  name = "Startseite"
   identifier = "home"
   weight = 100
   url = "/"
@@ -23,7 +23,7 @@ googleAnalytics = "UA-171844638-1"
   url = "/contact/"
 
   [[menu.main]]
-  name = "About"
+  name = "Über mich"
   weight = 300
   identifier = "about"
   url = "/about/"
