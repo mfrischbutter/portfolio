@@ -9,6 +9,32 @@ description = "Web-Developer aus Leipzig"
 profilePicture = "images/profile.jpg"
 googleAnalytics = "UA-171844638-1"
 
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/michael-frischbutter-4a9650151/"
+
+[[params.socialIcons]]
+icon = "fa-xing"
+title = "Xing"
+url = "https://www.xing.com/profile/Michael_Frischbutter"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/mfrischbutter"
+
+[[params.socialIcons]]
+icon = "fa-stack-overflow"
+title = "Stack Overflow"
+url = "https://stackoverflow.com/users/8971539/mfrischbutter"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:contact@mfrischbutter.dev"
+
 [menu]
   [[menu.main]]
   name = "Startseite"
