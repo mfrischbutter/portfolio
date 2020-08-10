@@ -1,0 +1,13 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "~bootstrap/scss/bootstrap";
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.navbar {
+    background-color: transparent !important;
+    padding: 1.5rem 0rem;
+}
