@@ -1,7 +1,0 @@
-baseURL = "https://mfrischbutter.dev/"
-languageCode = "de"
-theme = "anatole"
-
-title = "Michael Frischbutter"
-author = "Michael Frischbutter"
-description = "Portfolio"
