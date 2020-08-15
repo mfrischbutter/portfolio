@@ -1,33 +1,49 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/contact">Contact</router-link>
+  <div class="columns">
+    <div class="column is-flex is-cadet is-full-height">
+      <Router/>
     </div>
-    <router-view/>
+    <div class="column is-flex is-full-height">
+      bc
+    </div>
+    <div class="column is-flex is-full-height">
+      cd
+    </div>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.columns {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
 }
 
-#nav {
-  padding: 30px;
+.is-flex {
+  display: flex;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.is-cadet {
+  background-color: #5C6D70;
+  color: white;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.is-red {
+  background-color: red;
+  color: white;
+}
+
+.is-full-height {
+  height: 100vh;
 }
 </style>
+
+<script>
+import Router from '@/components/Router.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Router
+  }
+}
+</script>
