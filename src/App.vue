@@ -32,15 +32,17 @@
         <div
           class="is-medium"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
-        <div class="centerVertical">
-          <Form/>
-        </div>
       </div>
+      <div class="spacer"></div>
+      <img class="profile-pic" src="./assets/macbook.jpeg" />
     </div>
   </div>
 </template>
 
 <style lang="scss">
+.spacer{
+  margin: auto 0;
+}
 .centerVertical{
   margin: auto 0;
 }
@@ -69,9 +71,9 @@
   padding: 1.2rem 0.75rem;
 }
 .profile-pic {
-  height: 60vh;
+  height: 50vh;
   object-fit: cover;
-  object-position: 100% -32px;
+  object-position: 100% -15px;
 }
 .nameContainer {
   margin: auto 0;
@@ -96,13 +98,13 @@
 
 <script>
 import Router from "@/components/Router.vue";
-import Form from "@/components/Form.vue";
+// import Form from "@/components/Form.vue";
 
 export default {
   name: "App",
   components: {
     Router,
-    Form,
+    // Form,
   },
 };
 </script>
