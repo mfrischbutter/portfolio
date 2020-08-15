@@ -91,11 +91,10 @@
 
   .is-full-height {
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     flex-direction: column;
   }
-  .is-full-height:last-of-type{
-    height: 100vh;
+  .is-full-height:first-of-type{
+    height: calc(var(--vh, 1vh) * 100);
   }
 </style>
 
