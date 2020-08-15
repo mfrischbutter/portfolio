@@ -94,6 +94,9 @@
     height: calc(var(--vh, 1vh) * 100);
     flex-direction: column;
   }
+  .is-full-height:last-of-type{
+    height: 100vh;
+  }
 </style>
 
 <script>
