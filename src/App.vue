@@ -2,6 +2,9 @@
   <div class="columns">
     <div class="column is-flex is-cadet is-full-height">
       <Router/>
+      <div class="title is-2 name">
+        Michael Frischbutter
+      </div>
     </div>
     <div class="column is-flex is-full-height">
       bc
@@ -13,6 +16,9 @@
 </template>
 
 <style>
+.column{
+  padding:0 0.75rem !important;
+}
 .columns {
   margin-top: 0rem !important;
   margin-bottom: 0rem !important;
@@ -27,13 +33,9 @@
   color: white;
 }
 
-.is-red {
-  background-color: red;
-  color: white;
-}
-
 .is-full-height {
   height: 100vh;
+  flex-direction: column;
 }
 </style>
 
