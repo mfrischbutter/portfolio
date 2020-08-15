@@ -1,7 +1,6 @@
 <template>
   <div class="columns">
     <div class="column is-flex is-background-1 is-full-height">
-      <Router />
       <div class="nameContainer">
         <div class="title is-1">Michael Frischbutter</div>
         <div
@@ -92,6 +91,7 @@
 
 .is-full-height {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   flex-direction: column;
 }
 </style>
@@ -99,6 +99,12 @@
 <script>
 // import Router from "@/components/Router.vue";
 // import Form from "@/components/Form.vue";
+
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 export default {
   name: "App",
