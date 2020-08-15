@@ -28,9 +28,9 @@
     </div>
     <div class="column is-background-3 is-flex is-full-height">
       <div class="padding-box">
-        <div class="title is-5">Contact</div>
+        <div class="title is-5 has-text-white">Contact</div>
         <div
-          class="is-medium"
+          class="is-medium has-text-white"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
       </div>
       <div class="spacer"></div>
@@ -97,13 +97,13 @@
 </style>
 
 <script>
-import Router from "@/components/Router.vue";
+// import Router from "@/components/Router.vue";
 // import Form from "@/components/Form.vue";
 
 export default {
   name: "App",
   components: {
-    Router,
+    // Router,
     // Form,
   },
 };
