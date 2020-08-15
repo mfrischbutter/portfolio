@@ -39,78 +39,75 @@
 </template>
 
 <style lang="scss">
-.spacer{
-  margin: auto 0;
-}
-.centerVertical{
-  margin: auto 0;
-}
-.title.is-5 {
-  margin-bottom: 1rem !important;
-}
-.title.is-1 {
-  color: white;
-  font-size: 4rem;
-}
-.iconbar {
-  padding: 0.75rem;
-  height: 3.5rem;
-}
-.iconbar > span > svg {
-  padding: 0rem 0.25rem;
-  color: #4370af;
-  height: 2.3rem;
-  width: 2.3rem;
-  transition: color 0.3s;
-}
-.iconbar > span > svg:hover{
-  color: white;
-}
-.padding-box {
-  padding: 1.2rem 0.75rem;
-}
-.profile-pic {
-  height: 50vh;
-  object-fit: cover;
-  object-position: 100% -15px;
-}
-.nameContainer {
-  margin: auto 0;
-  padding: 0.75rem;
-}
-.column {
-  padding: 0 !important;
-}
-.columns {
-  margin: 0rem !important;
-}
+  .spacer{
+    margin: auto 0;
+  }
+  .centerVertical{
+    margin: auto 0;
+  }
+  .title.is-5 {
+    margin-bottom: 1rem !important;
+  }
+  .title.is-1 {
+    color: white;
+    font-size: 4rem;
+  }
+  .iconbar {
+    padding: 0.75rem;
+    height: 3.5rem;
+  }
+  .iconbar > span > svg {
+    padding: 0rem 0.25rem;
+    color: #4370af;
+    height: 2.3rem;
+    width: 2.3rem;
+    transition: color 0.3s;
+  }
+  .iconbar > span > svg:hover{
+    color: white;
+  }
+  .padding-box {
+    padding: 1.2rem 0.75rem;
+  }
+  .profile-pic {
+    height: 50vh;
+    object-fit: cover;
+    object-position: 100% -15px;
+  }
+  .nameContainer {
+    margin: auto 0;
+    padding: 0.75rem;
+  }
+  .column {
+    padding: 0 !important;
+  }
+  .columns {
+    margin: 0rem !important;
+  }
 
-.is-flex {
-  display: flex;
-}
+  .is-flex {
+    display: flex;
+  }
 
-.is-full-height {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-  flex-direction: column;
-}
+  .is-full-height {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    flex-direction: column;
+  }
 </style>
 
 <script>
-// import Router from "@/components/Router.vue";
-// import Form from "@/components/Form.vue";
+  // import Router from "@/components/Router.vue";
+  // import Form from "@/components/Form.vue";
 
-window.addEventListener('resize', () => {
-  // We execute the same script as before
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
 
-export default {
-  name: "App",
-  components: {
-    // Router,
-    // Form,
-  },
-};
+  export default {
+    name: "App",
+    components: {
+      // Router,
+      // Form,
+    },
+  };
 </script>
