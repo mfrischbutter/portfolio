@@ -16,12 +16,6 @@
 </template>
 
 <style>
-.navbar {
-  width: 100%;
-  height: 10vh;
-  max-height: 80px;
-  background-color: #5c6d70 !important;
-}
 .navbar-burger{
   margin-left: 0 !important;
 }

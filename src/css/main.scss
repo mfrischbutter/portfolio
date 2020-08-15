@@ -1,3 +1,24 @@
-$title-color:#fff;
+$backgroundColor1: #1D3557;
+$backgroundColor2: #ffffff;
+$backgroundColor3: #ffffff;
+
+
+$navbar-background-color: $backgroundColor1;
+$navbar-item-color: #4370af;
+$navbar-item-hover-color: #F1FAEE;
+$navbar-item-hover-background-color: #1a2f4d;
+$navbar-height: 3rem;
+
+.is-background-1 {
+    background-color: $backgroundColor1;
+    color: white;
+    size: 1.35rem;
+}
+.is-background-2{
+    background-color: $backgroundColor2;
+}
+.is-background-3{
+    background-color: $backgroundColor3;
+}
 
 @import '~bulma/bulma';
