@@ -89,9 +89,6 @@
   width: 2.3rem;
   transition: color 0.3s;
 }
-.iconbar > a > span > svg:hover {
-  color: #ffddd2;
-}
 .padding-box {
   padding: 1.2rem 0.75rem;
 }
