@@ -5,7 +5,8 @@
         <div class="title is-1">Michael Frischbutter</div>
         <div
           class="is-size-3"
-        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, rerum porro, provident nemo architecto iusto quae distinctio reiciendis, atque illo cum laborum assumenda laboriosam suscipit! Magnam doloribus beatae modi illum!</div>
+        >
+        <p>Hi, I'm Michael from Leipzig. I am specialized in the development of PHP backend systems and apps using Flutter.</p></div>
       </div>
       <div class="level">
         <div class="level-left iconbar">
@@ -22,7 +23,10 @@
         <div class="title is-2">About me</div>
         <div
           class="is-size-3"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
+        >
+        <p class="mb-3">I have a diverse set of skills, ranging from design using HTML5, CSS3, Javascript and Vue all the way to PHP, Python, App-Developement with Flutter, Laravel and Typo3.</p>
+        <p>Currently I am working full time as a backend developer on many different projects at a digital agency in Leipzig</p>
+        </div>
       </div>
     </div>
     <div class="column is-background-3 is-flex is-full-height">
@@ -30,15 +34,18 @@
         <div class="title is-2 has-text-white">Contact</div>
         <div
           class="is-size-3 has-text-white"
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
+        >
+          <Form/>
+        </div>
       </div>
-      <div class="spacer"></div>
-      <img class="profile-pic" src="./assets/macbook.jpeg" />
     </div>
   </div>
 </template>
 
 <style lang="scss">
+  .mb-3 {
+    margin-bottom:  0.75rem;
+  }
   .spacer{
     margin: auto 0;
   }
@@ -100,7 +107,7 @@
 
 <script>
   // import Router from "@/components/Router.vue";
-  // import Form from "@/components/Form.vue";
+  import Form from "@/components/Form.vue";
 
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -109,7 +116,7 @@
     name: "App",
     components: {
       // Router,
-      // Form,
+      Form,
     },
   };
 </script>

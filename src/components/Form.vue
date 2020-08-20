@@ -1,27 +1,23 @@
 <template>
-  <div>
-    <div class="field">
-      <label class="label">Name</label>
+  <form action="https://formspree.io/xzbjqgaw" method="POST">
+    <div>
+      <div class="field">
+        <label class="label has-text-white">E-Mail</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="E-Mail" name="email" />
+        </div>
+      </div>
+      <div class="field">
+        <label class="label has-text-white">Nachricht</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="..." name="message"></textarea>
+        </div>
+      </div>
       <div class="control">
-        <input class="input" type="text" placeholder="Name" />
+        <button class="button is-link" type="submit">Absenden</button>
       </div>
     </div>
-    <div class="field">
-      <label class="label">E-Mail</label>
-      <div class="control">
-        <input class="input" type="email" placeholder="E-Mail" />
-      </div>
-    </div>
-    <div class="field">
-      <label class="label">Nachricht</label>
-      <div class="control">
-        <textarea class="textarea" placeholder="..."></textarea>
-      </div>
-    </div>
-    <div class="control">
-      <button class="button is-link">Absenden</button>
-    </div>
-  </div>
+  </form>
 </template>
 
 <script>
