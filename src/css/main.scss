@@ -1,7 +1,7 @@
-$backgroundColor1: #006D77;
-$backgroundColor2: #EDF6F9;
-$backgroundColor3: #006D77;
-$blue: #EDF6F9;
+$backgroundColor1: #292a2d;
+$backgroundColor2: #ffffff;
+$backgroundColor3: #292a2d;
+$blue: #ffffff;
 $size-1: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
 $size-2: calc(23px + (28 - 23) * ((100vw - 300px) / (1600 - 300)));
 $size-3: calc(19px + (22 - 19) * ((100vw - 300px) / (1600 - 300)));
@@ -15,7 +15,7 @@ $navbar-item-hover-background-color: #1a2f4d;
 $navbar-height: 3rem;
 
 .is-kinda-white {
-    color: #EDF6F9 !important;
+    color: #ffffff !important;
 }
 .is-background-1 {
     background-color: $backgroundColor1;

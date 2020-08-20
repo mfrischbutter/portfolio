@@ -46,11 +46,16 @@
           <Form />
         </div>
       </div>
+      <div class="spacer"></div>
+      <div class="copyright is-kinda-white">&copy; Michael Frischbutter {{currentYear}}</div>
     </div>
   </div>
 </template>
 
 <style lang="scss">
+.copyright {
+  padding: 0.2rem 0.75rem;
+}
 .h-50vh {
   height: 50vh;
 }
@@ -128,6 +133,11 @@ document.documentElement.style.setProperty("--vh", `${vh}px`);
 
 export default {
   name: "App",
+  data: function () {
+    return {
+      'currentYear': new Date().getFullYear()
+    }
+  },
   components: {
     // Router,
     Form,
