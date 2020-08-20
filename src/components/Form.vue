@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="control">
-        <button class="button is-link is-size-3" type="submit">Absenden</button>
+        <button class="button is-link is-size-3" type="submit">send</button>
       </div>
     </div>
   </form>
