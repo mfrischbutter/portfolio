@@ -4,7 +4,7 @@
       <div class="nameContainer">
         <div class="title is-1">Michael Frischbutter</div>
         <div
-          class="is-medium"
+          class="is-size-3"
         >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, rerum porro, provident nemo architecto iusto quae distinctio reiciendis, atque illo cum laborum assumenda laboriosam suscipit! Magnam doloribus beatae modi illum!</div>
       </div>
       <div class="level">
@@ -19,17 +19,17 @@
     <div class="column is-background-2 is-flex is-full-height">
       <img class="profile-pic" src="./assets/profile.jpg" />
       <div class="padding-box">
-        <div class="title is-5">About me</div>
+        <div class="title is-2">About me</div>
         <div
-          class="is-medium"
+          class="is-size-3"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
       </div>
     </div>
     <div class="column is-background-3 is-flex is-full-height">
       <div class="padding-box">
-        <div class="title is-5 has-text-white">Contact</div>
+        <div class="title is-2 has-text-white">Contact</div>
         <div
-          class="is-medium has-text-white"
+          class="is-size-3 has-text-white"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi, quae saepe sunt aperiam itaque tenetur rerum explicabo? Officiis, sunt? Officiis voluptatem iusto reprehenderit rem esse consequatur blanditiis quos quas.</div>
       </div>
       <div class="spacer"></div>
