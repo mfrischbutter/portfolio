@@ -25,7 +25,8 @@ new Vue({
 
 Vue.use(VueAnalytics, {
   id: 'UA-171844638-1',
-  disableScriptLoader: true
+  disableScriptLoader: true,
+  router: router,
 })
 Vue.use(Buefy);
 Vue.use(Css);
