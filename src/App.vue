@@ -28,7 +28,7 @@
       <img class="profile-pic" src="./assets/profile.jpg" />
       <div class="padding-box h-50vh">
         <div class="title is-2">About me</div>
-        <div class="is-size-3">
+        <div class="is-size-3" id="about-text">
           <p
             class="mb-3"
           >I have a diverse set of skills, ranging from design using HTML5, CSS3, Javascript and Vue all the way to PHP, Python, App-Developement with Flutter, Laravel and Typo3.</p>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="spacer"></div>
-      <div class="copyright is-kinda-white">&copy; Michael Frischbutter {{currentYear}}</div>
+      <div class="copyright is-kinda-white is-size-4">&copy; Michael Frischbutter {{currentYear}}</div>
     </div>
   </div>
 </template>
@@ -118,6 +118,11 @@
 .is-full-height {
   height: 100vh;
   flex-direction: column;
+}
+@media screen and (min-width: 800px) {
+  .is-full-height {
+    height: calc(var(--vh, 1vh) * 100);
+  }
 }
 .is-full-height:first-of-type {
   height: calc(var(--vh, 1vh) * 100);
