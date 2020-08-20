@@ -32,7 +32,7 @@
           <p
             class="mb-3"
           >I have a diverse set of skills, ranging from design using HTML5, CSS3, Javascript and Vue all the way to PHP, Python, App-Developement with Flutter, Laravel and Typo3.</p>
-          <p>Currently I am working full time as a backend developer on many different projects at a digital agency in Leipzig.</p>
+          <p>Currently I am working full time as a backend developer on many different projects at a digital agency based in Leipzig.</p>
         </div>
       </div>
     </div>
