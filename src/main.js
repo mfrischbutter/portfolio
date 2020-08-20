@@ -8,6 +8,8 @@ import Xing from 'vue-material-design-icons/Xing.vue';
 import LinkedIn from 'vue-material-design-icons/Linkedin.vue';
 import Overflow from 'vue-material-design-icons/StackOverflow.vue';
 import Github from 'vue-material-design-icons/Github.vue';
+import VueAnalytics from 'vue-analytics';
+
 
 Vue.config.productionTip = false
 
@@ -16,7 +18,8 @@ Vue.component('linkedin-icon', LinkedIn);
 Vue.component('stack-overflow-icon', Overflow);
 Vue.component('github-icon', Github);
 
-new Vue({
+new Vue(VueAnalytics, {
+  id: 'UA-171844638-1',
   router,
   render: h => h(App)
 }).$mount('#app')
