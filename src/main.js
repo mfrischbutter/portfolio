@@ -21,5 +21,5 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-Vue.use(Css);
 Vue.use(Buefy);
+Vue.use(Css);
