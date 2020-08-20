@@ -18,15 +18,14 @@ Vue.component('linkedin-icon', LinkedIn);
 Vue.component('stack-overflow-icon', Overflow);
 Vue.component('github-icon', Github);
 
+Vue.use(VueAnalytics, {
+  id: 'UA-171844638-1',
+})
+
 new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
 
-Vue.use(VueAnalytics, {
-  id: 'UA-171844638-1',
-  disableScriptLoader: true,
-  router: router,
-})
 Vue.use(Buefy);
 Vue.use(Css);
