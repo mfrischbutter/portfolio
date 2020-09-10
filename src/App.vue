@@ -42,7 +42,7 @@
         <div class="is-size-3">
           <p
             class="mb-6 is-kinda-white"
-          >To contact me feel free to use the contact form below. I am also available through the social networks Xing and LinkedIn.</p>
+          >To contact me, feel free to use the contact form below. I am also available through the social networks Xing and LinkedIn.</p>
           <Form />
         </div>
       </div>
