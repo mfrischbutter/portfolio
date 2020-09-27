@@ -2,11 +2,11 @@ $backgroundColor1: #292a2d;
 $backgroundColor2: #ffffff;
 $backgroundColor3: #292a2d;
 $blue: #ffffff;
-$size-1: calc(34px + (50 - 34) * ((100vw - 300px) / (1600 - 300)));
-$size-2: calc(23px + (27 - 23) * ((100vw - 300px) / (1600 - 300)));
-$size-3: calc(20px + (20 - 20) * ((100vw - 300px) / (1600 - 300)));
-$size-4: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
-$size-5: calc(15 + (20- 15) * ((100vw - 300px) / (1600 - 300)));
+$size-1: 2.4em;
+$size-2: 1.4em;
+$size-3: 100%;
+$size-4: 0.8em;
+$size-5: 0.6em;
 
 $navbar-background-color: $backgroundColor1;
 $navbar-item-color: #4370af;
